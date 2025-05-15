@@ -1,7 +1,7 @@
 name: issue event
 on: issues
 jobs:
-    issue trigger:
+    issue-trigger:
         runs-on: ubuntu-latest
         steps:
             - name: output event details
